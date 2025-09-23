@@ -4,7 +4,7 @@ This repository is meant to store project files for my HDL class
 
 *test* **test** __test__
 
-##Testing 3
+## Testing 3
 
 ---
 
