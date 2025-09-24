@@ -1,15 +1,10 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-/*
-TODO:
-CREATE IDLE STATE MACHINE LOGIC
-    Instruction fetch 
-    Instruction decode
-CREATE STOP STATE LOGIC
-    $finish
-TEST FUNCTIONALITY
-*/
-//////////////////////////////////////////////////////////////////////////////////
+//ATTEMPT AT EXECUTION ENGINE DESIGN BY KARSTEN S.
+//
+//Execution engine should be able to read and decode instructions from the instruction memory
+//and then perform the tasks required to complete the task. Tasks include integer arithmetic, matrix
+//arithmetic, and branching.
+//
 
 
 module executionEngine(clk, dataBus, address, nRead, nWrite, nReset);
