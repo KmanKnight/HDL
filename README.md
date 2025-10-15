@@ -1,24 +1,3 @@
-temp text to test nano and git commands
+This is the final project for EE4321 HDL.
 
-This repository is meant to store project files for my HDL class
-
-*test* **test** __test__
-
-## Testing 3
-
----
-
-1. item 1
-1. item 2
-
-
-- unordered 1
-- unordered 2
-
-` var = 3; `
-
-> The quick brown fox jumps over the lazy dog
->
->> Nested Block Quotes!
-
-
+It is a simple 256-bit CPU that can handle Matrix Arithmetic, Integer Arithmetic, and Branching. It current is programmed to do a set list of tasks, but the tasks can be modified to do any arithmetic evaluation. The processor consists of 8 internal registers, but only the first 5 are useable for data storage. The Memory *currently* holds 14 different 256 bit data values, but this can be modified to be more data, same with the Instruction Memory.
